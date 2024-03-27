@@ -38,7 +38,7 @@ servo_pwm = GPIO.PWM(servo_pin, 50)  # 50 Hz frequency
 # Initialize Blynk
 BLYNK_TEMPLATE_ID = 'TMPL4XAFfn0x6'
 BLYNK_TEMPLATE_NAME = 'Quickstart Template'
-BLYNK_AUTH_TOKEN = 'uv_McI1ms5ABKFFiz_gnC4MffwKljYJN'
+BLYNK_AUTH_TOKEN = '!!AUTH TOKEN!!'
 blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN)
 
 # Initialize Flask app
